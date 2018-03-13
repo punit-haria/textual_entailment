@@ -124,7 +124,7 @@ def save_model_with_name(session, name):
     s = './model/model-' + name + '.highscoresave'
     saver.save(session, s)
 
-    # preprocessing pipeline, used to load the data intro a structure required by the model
+# preprocessing pipeline, used to load the data intro a structure required by the model
 def seq_mod_pipeline(data, vocab=None, max_seq_len_=None):
     is_ext_vocab = True
     if vocab is None:
