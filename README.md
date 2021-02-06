@@ -6,6 +6,4 @@ One interesting question we may ask is whether an agent can learn to make infere
 
 This repo contains one solution to this problem using recurrent neural networks. At a high-level, the network architecture incorporates layers of [LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) along with a differentiable attention mechanism based on [this paper](https://arxiv.org/abs/1509.06664). The files [rnn_attention.py](./rnn_attention.py) and [rnn_seq_attention.py](./rnn_seq_attention.py) detail two variants of this architecture. 
 
-For a more in-depth description of the solution, see my post here: [http://punitshah.ca/projects/textual_entailment/](http://punitshah.ca/projects/textual_entailment/)
-
 
